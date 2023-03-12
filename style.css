@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+.pic{
+    width: 20rem;
+    border-radius: 15px;
+}
+main{
+    background-color: hsl(216, 50%, 16%);
+    padding: 1.4rem 0.4rem 1.4rem 1.4rem;
+    width: 21rem;
+    border-radius: 20px;
+}
+.holder{
+    position: relative;
+}
+.view{
+    position: absolute;
+    top:0rem;
+    left:0rem;
+    display: block;
+    opacity: 0%;
+    padding: 8.5rem;
+    border-radius: 15px;
+    background-color: hsl(178, 100%, 50%,50%) ;
+}
+.view:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+h2{
+    color: hsl(0, 0%, 100%);
+}
+h2:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.equi{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+}
+.amount{
+    color: hsl(178, 100%, 50%);
+}
+.amount img{
+    margin-right: 5px;
+    margin-top: 1px;
+    float: left;
+}
+.time{
+    color: hsl(215, 51%, 70%);
+    margin-left: 45%;
+}
+.amount,.time{
+    display: inline-block;
+    padding: 0 0 0.8rem 0;
+}
+.line{
+    background-color: hsl(215, 32%, 27%);
+    height: 1px;
+    margin-right: 1rem;
+    float: none;  
+    display: block; 
+}
+span{
+    color: hsl(215, 51%, 70%);
+    margin-top: 10px;
+}
+span a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+span a:hover{
+    color: hsl(178, 100%, 50%);
+}
+.profile{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 5fr 2fr 1fr;    
+}
+.profile img{
+    width: 25px;
+    margin-top: 10px;
+    float: left;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 20px;
+
+}
